@@ -12,7 +12,7 @@ if(isNaN(lenth1) || isNaN(breath1)){
     result.textContent="please put valid numbers";
 }else{
     let result1 = lenth1*breath1;
-    result.textContent= `The result is ${result1}`;
+    result.textContent= `The result is ${result1}sq`;
 }
 
 });
